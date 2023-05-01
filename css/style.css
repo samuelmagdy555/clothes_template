@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------card---------------------------------------------------------------*/
+
+.main {
+    height: calc(70vh - 70px);
+    width: 100%;
+    padding: 40px 30px 30px 30px;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.box {
+    height: 115px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.box:hover {
+    transform: scale(1.08);
+}
+
+.box:nth-child(1) {
+    background-color: #2d3748;
+}
+.box:nth-child(2) {
+    background-color: #2d3748;
+}
+.box:nth-child(3) {
+    background-color: #2d3748;
+}
+
+
+.box .text {
+    color: white;
+}
+.topic {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.topic-heading {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+
+/*--------------chart---------------------------------------------------------------*/
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+}
